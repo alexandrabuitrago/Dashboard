@@ -53,7 +53,7 @@ body{
     user-select: none;
     overflow-x: hidden;
     color: var(--color-dark);
-    background-color: var(--color-background);
+    background-color: pink;
 }
 
 a{
