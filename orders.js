@@ -4,7 +4,6 @@ const Orders = [
         productNumber: '85743',
         paymentStatus: 'Pendiente',
         status: 'Pending'
-        
     },
     {
         productName: 'CSS Full Course',
