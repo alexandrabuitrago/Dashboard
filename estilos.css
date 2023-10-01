@@ -177,7 +177,7 @@ aside .sidebar a:last-child{
 aside .sidebar a.active{
     width: 100%;
     color: #000;
-    background-color: #FF8E69;
+    background-color: var(--color-light);
     margin-left: 0;
 }
 
@@ -189,12 +189,12 @@ aside .sidebar a.active::before{
 }
 
 aside .sidebar a.active span{
-    color: var(--color-primary);
+    color: orangered;
     margin-left: calc(1rem - 3px);
 }
 
 aside .sidebar a:hover{
-    color: var(--color-primary);
+    color: orangered;
 }
 
 aside .sidebar a:hover span{
@@ -258,19 +258,19 @@ main .analyse svg circle{
 }
 
 main .analyse .sales svg circle{
-    stroke: var(--color-warning);
+    stroke: #69FFF1;
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
 }
 
-main .analyse .visits svg circle{ /*rosa*/
-    stroke: var(--color-danger);
+main .analyse .visits svg circle{ 
+    stroke: #FF31FC;
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
 }
 
-main .analyse .searches svg circle{ /*azul*/
-    stroke: var(--color-primary);
+main .analyse .searches svg circle{
+    stroke: #31FF31;
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
 }

@@ -7,6 +7,6 @@ Orders.forEach(order => {
         <td class="${order.status === 'Declined' ? 'danger' : order.status === 'Pending' ? 'warning' : 'primary'}">${order.status}</td>
         <td class="primary">Details</td>
     `;
-    tr.innerHTML = trConten;
+    tr.innerHTML = trContent;
     document.querySelector('table tbody').appendChild(tr);
 });
