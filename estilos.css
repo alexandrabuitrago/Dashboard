@@ -53,7 +53,7 @@ body{
     user-select: none;
     overflow-x: hidden;
     color: var(--color-dark);
-    background-color: pink;
+    background-color: var(--color-background);
 }
 
 a{
@@ -155,7 +155,7 @@ aside .sidebar:hover{
 aside .sidebar a{
     display: flex;
     align-items: center;
-    color: var(--color-info-dark);
+    color: #000;
     height: 3.7rem;
     gap: 1rem;
     position: relative;
@@ -176,8 +176,8 @@ aside .sidebar a:last-child{
 
 aside .sidebar a.active{
     width: 100%;
-    color: var(--color-primary);
-    background-color: var(--color-light);
+    color: #000;
+    background-color: #FF8E69;
     margin-left: 0;
 }
 
@@ -185,7 +185,7 @@ aside .sidebar a.active::before{
     content: '';
     width: 6px;
     height: 18px;
-    background-color: var(--color-primary);
+    background-color: orangered;
 }
 
 aside .sidebar a.active span{
